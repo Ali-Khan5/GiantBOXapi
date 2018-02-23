@@ -6,7 +6,7 @@ class Card extends Component{
         return(
             <div className="col-sm-4">
             <div className="card" style={{width: "100%",height:"32rem",marginTop:"15px"}}>
-            <img className="card-img-top" src={this.props.Img} alt="Card image cap" style={{height:"4C0%"}}/>
+            <img style={{height:"40%"}} className="card-img-top" src={this.props.Img} alt="Card image cap"/>
             <div className="card-body">
               <h5 className="card-title">{this.props.name}</h5>
      
